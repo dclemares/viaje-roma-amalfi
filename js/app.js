@@ -21,17 +21,25 @@
 
   function clon(o) { return JSON.parse(JSON.stringify(o)); }
 
+  const BASE_KEY = STORAGE_KEY + "_base";
+
   function cargarEstado() {
     try {
       const guardado = localStorage.getItem(STORAGE_KEY);
-      if (guardado) return JSON.parse(guardado);
+      const baseGuardada = localStorage.getItem(BASE_KEY);
+      const baseActual = JSON.stringify(window.ITINERARIO);
+      // Solo usar los cambios locales si la base (data.js) NO ha cambiado desde
+      // que se guardaron. Si yo actualizo el itinerario, la copia vieja se descarta.
+      if (guardado && baseGuardada === baseActual) return JSON.parse(guardado);
     } catch (e) { /* ignora */ }
     return clon(window.ITINERARIO);
   }
 
   function guardar() {
-    try { localStorage.setItem(STORAGE_KEY, JSON.stringify(state)); }
-    catch (e) { console.warn("No se pudo guardar:", e); }
+    try {
+      localStorage.setItem(STORAGE_KEY, JSON.stringify(state));
+      localStorage.setItem(BASE_KEY, JSON.stringify(window.ITINERARIO));
+    } catch (e) { console.warn("No se pudo guardar:", e); }
   }
 
   function emojiDe(t) { return EMOJI[t] || EMOJI.default; }
@@ -524,6 +532,7 @@
     openDays = new Set();
     view = { mode: "todo", value: null };
     localStorage.removeItem(STORAGE_KEY);
+    localStorage.removeItem(BASE_KEY);
     render(true);
   };
 
