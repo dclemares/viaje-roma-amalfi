@@ -338,42 +338,111 @@ Dos Caravaggios y la capilla Chigi de Rafael.
       </Placemark>
     </Folder>
     <Folder>
-      <name>Día 4 · Roma → Pompeya → Costa Amalfitana</name>
+      <name>Día 4 · Roma → Nápoles: Pompeya y Vesubio</name>
       <Placemark>
         <name>Pompeya (yacimiento)</name>
-        <description>🕒 09:30  ⏱ 3h30  💶 18 €  
-Ciudad romana sepultada por el Vesubio: el Foro, el Anfiteatro, la Casa del Fauno, la Villa dei Misteri, el Lupanar, las termas y los moldes de las víctimas.  
-🚶 Junto a la estación (Pompei Scavi / Pompei). Deja las maletas en la consigna gratuita.</description>
+        <description>🕒 12:30  ⏱ 3h  💶 18 €  
+Ciudad romana sepultada por el Vesubio: Foro, Anfiteatro, Casa del Fauno, Villa dei Misteri, Lupanar, termas y los moldes de las víctimas.  
+🚶 En coche desde el aeropuerto (~35 min). Parking junto al yacimiento.</description>
         <Point><coordinates>14.4847,40.7491,0</coordinates></Point>
       </Placemark>
       <Placemark>
-        <name>Comida en Pompei</name>
-        <description>🕒 13:15  ⏱ 1h  💶 ~20 €/pers.  
-Pausa para comer cerca del yacimiento.  
-🚶 A pie en el pueblo de Pompei.</description>
-        <Point><coordinates>14.499,40.748,0</coordinates></Point>
+        <name>Vesubio (cráter)</name>
+        <description>🕒 16:00  ⏱ 2h  💶 ~10 € (entrada) + parking  
+Subida al Gran Cono del Vesubio y vistas de la bahía de Nápoles.  
+🚶 En coche al aparcamiento (~1.000 m) + ~30 min andando al cráter.</description>
+        <Point><coordinates>14.426,40.8211,0</coordinates></Point>
       </Placemark>
       <Placemark>
-        <name>Atardecer en Villa Comunale</name>
-        <description>🕒 19:30  ⏱ 1h  💶 Gratis  
-Vistas al golfo de Nápoles y el Vesubio.  
-🚶 A pie.</description>
-        <Point><coordinates>14.37,40.6258,0</coordinates></Point>
-      </Placemark>
-      <Placemark>
-        <name>Cena en Sorrento</name>
-        <description>🕒 21:00  ⏱ 1h30  💶 ~35 €/pers.  
-Gnocchi alla sorrentina, limoncello.  
-🚶 A pie por Piazza Tasso.</description>
-        <Point><coordinates>14.375,40.6263,0</coordinates></Point>
+        <name>Cena y noche en Nápoles</name>
+        <description>🕒 20:00  ⏱ 1h30  💶 ~25 €/pers.  
+¡La auténtica pizza napolitana!  
+🚶 En coche a Nápoles (~30 min desde el Vesubio).</description>
+        <Point><coordinates>14.2681,40.8518,0</coordinates></Point>
       </Placemark>
     </Folder>
     <Folder>
-      <name>Día 5 · Positano</name>
+      <name>Día 5 · Capri y traslado a Amalfi</name>
+      <Placemark>
+        <name>Grotta Azzurra</name>
+        <description>🕒 10:00  ⏱ 1h  💶 ~18 € (entrada + barca)  
+La Gruta Azul (si el mar lo permite).  
+🚶 Barca desde Marina Grande o bus a Anacapri.</description>
+        <Point><coordinates>14.2052,40.5607,0</coordinates></Point>
+      </Placemark>
+      <Placemark>
+        <name>Anacapri y Monte Solaro</name>
+        <description>🕒 12:00  ⏱ 2h  💶 14 € (telesilla)  
+Telesilla al Monte Solaro, la mejor vista de la isla.  
+🚶 Bus desde Marina Grande / Capri (~2 €).</description>
+        <Point><coordinates>14.2161,40.5547,0</coordinates></Point>
+      </Placemark>
+      <Placemark>
+        <name>Comida en Capri</name>
+        <description>🕒 14:30  ⏱ 1h30  💶 ~30 €/pers.  
+Ravioli capresi, ensalada caprese.  
+🚶 A pie.</description>
+        <Point><coordinates>14.243,40.5505,0</coordinates></Point>
+      </Placemark>
+      <Placemark>
+        <name>Jardines de Augusto y Faraglioni</name>
+        <description>🕒 16:30  ⏱ 1h30  💶 3 €  
+Vistas a los Faraglioni y a Via Krupp.  
+🚶 A pie desde Capri pueblo.</description>
+        <Point><coordinates>14.24,40.5485,0</coordinates></Point>
+      </Placemark>
+    </Folder>
+    <Folder>
+      <name>Día 6 · Amalfi y Ravello</name>
+      <Placemark>
+        <name>Amalfi (Duomo)</name>
+        <description>🕒 09:30  ⏱ 1h30  💶 3 € (Claustro)  
+Catedral de Sant&apos;Andrea y Claustro del Paraíso.  
+🚶 A pie (dormís en Amalfi).</description>
+        <Point><coordinates>14.6027,40.6342,0</coordinates></Point>
+      </Placemark>
+      <Placemark>
+        <name>Paseo por Amalfi</name>
+        <description>🕒 11:00  ⏱ 1h  💶 Gratis  
+Callejuelas, el puerto y las tiendas de limoncello.  
+🚶 A pie.</description>
+        <Point><coordinates>14.601,40.634,0</coordinates></Point>
+      </Placemark>
+      <Placemark>
+        <name>Comida en Amalfi</name>
+        <description>🕒 12:30  ⏱ 1h  💶 ~30 €/pers.  
+Pescado fresco y delizia al limone.  
+🚶 A pie.</description>
+        <Point><coordinates>14.603,40.634,0</coordinates></Point>
+      </Placemark>
+      <Placemark>
+        <name>Villa Rufolo (Ravello)</name>
+        <description>🕒 14:30  ⏱ 1h  💶 7 €  
+Jardines con vistas y escenario de conciertos.  
+🚶 Bus Amalfi → Ravello (~1,30 €, 25 min de curvas).</description>
+        <Point><coordinates>14.6118,40.6486,0</coordinates></Point>
+      </Placemark>
+      <Placemark>
+        <name>Villa Cimbrone</name>
+        <description>🕒 16:00  ⏱ 1h15  💶 10 €  
+La Terraza del Infinito, vistas espectaculares.  
+🚶 A pie por Ravello.</description>
+        <Point><coordinates>14.6133,40.6456,0</coordinates></Point>
+      </Placemark>
+      <Placemark>
+        <name>Vuelta a Amalfi y cena</name>
+        <description>🕒 19:00  ⏱ 1h30  💶 ~30 €/pers.  
+Bus de regreso y cena en Amalfi.  
+🚶 Bus Ravello → Amalfi.</description>
+        <Point><coordinates>14.6027,40.6342,0</coordinates></Point>
+      </Placemark>
+    </Folder>
+    <Folder>
+      <name>Día 7 · Positano</name>
       <Placemark>
         <name>Positano (pueblo)</name>
-        <description>🕒 10:30  ⏱ 1h30  💶 Gratis  
-Casas en cascada, Iglesia de Santa Maria Assunta (cúpula de mayólica).  
+        <description>🕒 10:15  ⏱ 1h30  💶 Gratis  
+Casas en cascada e Iglesia de Santa Maria Assunta (cúpula de mayólica).  
 🚶 A pie desde Spiaggia Grande.</description>
         <Point><coordinates>14.4844,40.6281,0</coordinates></Point>
       </Placemark>
@@ -400,68 +469,6 @@ Sendero Via Positanesi d&apos;America hasta la playa de Fornillo.
       </Placemark>
     </Folder>
     <Folder>
-      <name>Día 6 · Capri</name>
-      <Placemark>
-        <name>Grotta Azzurra</name>
-        <description>🕒 10:00  ⏱ 1h  💶 ~18 € (entrada + barca)  
-La Gruta Azul (si el mar lo permite).  
-🚶 Barca desde Marina Grande o bus a Anacapri.</description>
-        <Point><coordinates>14.2052,40.5607,0</coordinates></Point>
-      </Placemark>
-      <Placemark>
-        <name>Anacapri y Monte Solaro</name>
-        <description>🕒 12:00  ⏱ 2h  💶 14 € (telesilla)  
-Telesilla al Monte Solaro, la mejor vista de la isla.  
-🚶 Bus desde Marina Grande / Capri (~2 €).</description>
-        <Point><coordinates>14.2161,40.5547,0</coordinates></Point>
-      </Placemark>
-      <Placemark>
-        <name>Comida en Capri</name>
-        <description>🕒 14:30  ⏱ 1h30  💶 ~30 €/pers.  
-Ravioli capresi, ensalada caprese.  
-🚶 A pie.</description>
-        <Point><coordinates>14.243,40.5505,0</coordinates></Point>
-      </Placemark>
-      <Placemark>
-        <name>Jardines de Augusto y Faraglioni</name>
-        <description>🕒 16:30  ⏱ 1h  💶 3 €  
-Vistas a los Faraglioni y a Via Krupp.  
-🚶 A pie desde Capri pueblo.</description>
-        <Point><coordinates>14.24,40.5485,0</coordinates></Point>
-      </Placemark>
-    </Folder>
-    <Folder>
-      <name>Día 7 · Amalfi y Ravello</name>
-      <Placemark>
-        <name>Amalfi (Duomo)</name>
-        <description>🕒 11:00  ⏱ 1h30  💶 3 € (Claustro)  
-Catedral de Sant&apos;Andrea y Claustro del Paraíso.  
-🚶 A pie desde el puerto.</description>
-        <Point><coordinates>14.6027,40.6342,0</coordinates></Point>
-      </Placemark>
-      <Placemark>
-        <name>Comida en Amalfi</name>
-        <description>🕒 13:00  ⏱ 1h  💶 ~30 €/pers.  
-Pescado fresco y delizia al limone.  
-🚶 A pie.</description>
-        <Point><coordinates>14.603,40.634,0</coordinates></Point>
-      </Placemark>
-      <Placemark>
-        <name>Villa Rufolo (Ravello)</name>
-        <description>🕒 14:30  ⏱ 1h  💶 7 €  
-Jardines con vistas y escenario de conciertos.  
-🚶 Bus Amalfi → Ravello (~1,30 €, 25 min de curvas).</description>
-        <Point><coordinates>14.6118,40.6486,0</coordinates></Point>
-      </Placemark>
-      <Placemark>
-        <name>Villa Cimbrone</name>
-        <description>🕒 16:00  ⏱ 1h  💶 10 €  
-La Terraza del Infinito, vistas espectaculares.  
-🚶 A pie por Ravello.</description>
-        <Point><coordinates>14.6133,40.6456,0</coordinates></Point>
-      </Placemark>
-    </Folder>
-    <Folder>
       <name>Día 8 · Sentiero degli Dei / relax</name>
       <Placemark>
         <name>Sentiero degli Dei</name>
@@ -485,11 +492,11 @@ Premio final: chapuzón y comida.
         <Point><coordinates>14.485,40.6275,0</coordinates></Point>
       </Placemark>
       <Placemark>
-        <name>Cena de despedida</name>
+        <name>Cena de despedida en Amalfi</name>
         <description>🕒 21:00  ⏱ 1h30  💶 ~35 €/pers.  
 Última cena del viaje.  
-🚶 A pie en Sorrento.</description>
-        <Point><coordinates>14.375,40.6263,0</coordinates></Point>
+🚶 A pie.</description>
+        <Point><coordinates>14.6027,40.6342,0</coordinates></Point>
       </Placemark>
     </Folder>
   </Document>

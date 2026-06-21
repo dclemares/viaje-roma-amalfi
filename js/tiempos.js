@@ -231,63 +231,25 @@ window.TIEMPOS = {
   "d4": [
     {
       "modo": "transporte",
-      "m": 254049
-    },
-    {
-      "modo": "walk",
-      "min": 23,
-      "m": 1712
+      "m": 229053
     },
     {
       "modo": "transporte",
-      "m": 21818
+      "m": 29404
     },
     {
-      "modo": "walk",
-      "min": 0,
-      "m": 0
+      "modo": "transporte",
+      "m": 17375
     },
     {
-      "modo": "walk",
-      "min": 7,
-      "m": 538
-    },
-    {
-      "modo": "walk",
-      "min": 6,
-      "m": 477
+      "modo": "transporte",
+      "m": 21687
     }
   ],
   "d5": [
     {
       "modo": "transporte",
-      "m": 13678
-    },
-    {
-      "modo": "walk",
-      "min": 3,
-      "m": 213
-    },
-    {
-      "modo": "walk",
-      "min": 2,
-      "m": 153
-    },
-    {
-      "modo": "walk",
-      "min": 10,
-      "m": 724
-    },
-    {
-      "modo": "walk",
-      "min": 8,
-      "m": 607
-    }
-  ],
-  "d6": [
-    {
-      "modo": "transporte",
-      "m": 22611
+      "m": 39017
     },
     {
       "modo": "walk",
@@ -308,17 +270,22 @@ window.TIEMPOS = {
       "modo": "walk",
       "min": 20,
       "m": 1485
-    }
-  ],
-  "d7": [
+    },
     {
       "modo": "transporte",
-      "m": 29829
+      "m": 35474
+    }
+  ],
+  "d6": [
+    {
+      "modo": "walk",
+      "min": 3,
+      "m": 198
     },
     {
       "modo": "walk",
-      "min": 0,
-      "m": 31
+      "min": 3,
+      "m": 229
     },
     {
       "modo": "walk",
@@ -333,7 +300,33 @@ window.TIEMPOS = {
     {
       "modo": "walk",
       "min": 31,
-      "m": 2358
+      "m": 2335
+    }
+  ],
+  "d7": [
+    {
+      "modo": "transporte",
+      "m": 16281
+    },
+    {
+      "modo": "walk",
+      "min": 3,
+      "m": 213
+    },
+    {
+      "modo": "walk",
+      "min": 2,
+      "m": 153
+    },
+    {
+      "modo": "walk",
+      "min": 10,
+      "m": 724
+    },
+    {
+      "modo": "walk",
+      "min": 8,
+      "m": 607
     }
   ],
   "d8": [
@@ -357,13 +350,13 @@ window.TIEMPOS = {
     },
     {
       "modo": "transporte",
-      "m": 13061
+      "m": 16206
     }
   ],
   "d9": [
     {
       "modo": "transporte",
-      "m": 48210
+      "m": 52883
     }
   ]
 };
