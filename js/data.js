@@ -16,7 +16,7 @@
  */
 window.ITINERARIO = {
   titulo: "Roma + Costa Amalfitana",
-  subtitulo: "Nuestro viaje de julio",
+  subtitulo: "Roma + Costa Amalfitana · julio 2026",
   fechas: "7 – 16 julio 2026",
 
   zonas: {
