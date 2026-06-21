@@ -50,6 +50,31 @@
     </section>
   </main>
 
+  <!-- Botón flotante para pedir un cambio -->
+  <button id="fabPedir" class="fab" title="Pedir un cambio a Claude">💬 Pedir un cambio</button>
+
+  <!-- Modal: pedir un cambio (lo recibe Claude) -->
+  <div class="modal" id="modalPeticion" hidden>
+    <div class="modal__box">
+      <h2>💬 Pedir un cambio</h2>
+      <p class="modal__hint">Escribe qué quieres cambiar del viaje y se lo enviamos a Claude. La web se actualizará sola en ~1 minuto.</p>
+      <form id="formPeticion" class="form">
+        <label>Tu nombre <span class="opcional">(opcional)</span>
+          <input type="text" name="nombre" placeholder="Ej. Laura" />
+        </label>
+        <label>¿Qué quieres cambiar?
+          <textarea name="peticion" rows="4" required
+            placeholder="Ej.: En el día 5 (Positano) cambia la cena por una pizzería con vistas y ponla a las 21:30."></textarea>
+        </label>
+        <p class="modal__hint" id="peticionAviso"></p>
+        <div class="modal__actions">
+          <button type="button" id="btnCancelarPeticion" class="btn btn--ghost">Cancelar</button>
+          <button type="submit" class="btn btn--primary">Enviar petición</button>
+        </div>
+      </form>
+    </div>
+  </div>
+
   <!-- Modal para añadir / editar parada -->
   <div class="modal" id="modalParada" hidden>
     <div class="modal__box">

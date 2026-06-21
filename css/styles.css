@@ -247,6 +247,32 @@ body { display: flex; flex-direction: column; }
   display: flex; align-items: center; gap: 10px;
 }
 
+/* ---------- Botón flotante "Pedir un cambio" ---------- */
+.fab {
+  position: fixed;
+  right: 18px;
+  bottom: 18px;
+  z-index: 1500;
+  border: none;
+  border-radius: 999px;
+  padding: 13px 20px;
+  font-size: 0.95rem;
+  font-weight: 700;
+  color: #fff;
+  background: var(--accent);
+  box-shadow: 0 4px 14px rgba(0, 0, 0, 0.25);
+  cursor: pointer;
+  transition: transform 0.08s, filter 0.15s;
+}
+.fab:hover { filter: brightness(1.05); }
+.fab:active { transform: translateY(1px); }
+.modal__hint { font-size: 0.82rem; color: var(--muted); margin: 0 0 12px; line-height: 1.4; }
+.opcional { color: var(--muted); font-weight: 400; }
+
+@media (max-width: 760px) {
+  .fab { right: 12px; bottom: 12px; padding: 12px 16px; font-size: 0.9rem; }
+}
+
 /* ---------- Modal ---------- */
 .modal {
   position: fixed; inset: 0;

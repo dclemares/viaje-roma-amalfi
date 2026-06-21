@@ -18,6 +18,7 @@ window.ITINERARIO = {
   titulo: "Roma + Costa Amalfitana",
   subtitulo: "Roma + Costa Amalfitana · julio 2026",
   fechas: "7 – 16 julio 2026",
+  repo: "dclemares/viaje-roma-amalfi", // para el botón "Pedir un cambio"
 
   zonas: {
     roma:     { nombre: "Roma",             color: "#c0392b" },

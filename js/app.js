@@ -489,6 +489,37 @@
     render(true);
   };
 
+  // ---------- Pedir un cambio (lo recibe Claude vía GitHub Issues) ----------
+  (function () {
+    const fab = document.getElementById("fabPedir");
+    const modalP = document.getElementById("modalPeticion");
+    const formP = document.getElementById("formPeticion");
+    const aviso = document.getElementById("peticionAviso");
+    const REPO = (window.ITINERARIO && window.ITINERARIO.repo) || "";
+
+    if (!fab) return;
+    if (!REPO) { fab.style.display = "none"; return; }
+
+    fab.onclick = function () { aviso.textContent = ""; modalP.hidden = false; };
+    document.getElementById("btnCancelarPeticion").onclick = function () { modalP.hidden = true; };
+
+    formP.onsubmit = function (e) {
+      e.preventDefault();
+      const pet = formP.peticion.value.trim();
+      if (!pet) return;
+      const nombre = formP.nombre.value.trim();
+      const titulo = "[cambio] " + pet.slice(0, 60);
+      const cuerpo = (nombre ? "De: " + nombre + "\n\n" : "") + pet;
+      const url = "https://github.com/" + REPO + "/issues/new?labels=cambio" +
+        "&title=" + encodeURIComponent(titulo) +
+        "&body=" + encodeURIComponent(cuerpo);
+      window.open(url, "_blank", "noopener");
+      aviso.innerHTML = "✅ Se ha abierto GitHub con tu petición ya escrita. " +
+        "Solo pulsa <b>“Submit new issue”</b> para enviármela.";
+      formP.peticion.value = "";
+    };
+  })();
+
   // ---------- Utilidades ----------
   function esc(s) {
     return String(s == null ? "" : s)
