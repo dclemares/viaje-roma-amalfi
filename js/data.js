@@ -83,7 +83,7 @@ window.ITINERARIO = {
       id: "d1", fecha: "2026-07-08", titulo: "Día 1 · Roma imperial", zona: "roma",
       alojamiento: "Alojamiento en Roma (centro / Trastevere)",
       paradas: [
-        { nombre: "Coliseo", tipo: "monumento", lat: 41.8902, lng: 12.4922, hora: "09:00",
+        { nombre: "Coliseo", tipo: "monumento", lat: 41.8902, lng: 12.4922, hora: "09:15",
           duracion: "1h30", precio: "18 € (combinado)", queVer: "Anfiteatro Flavio: gradas, arena y subterráneos.",
           comoLlegar: "Metro línea B, parada Colosseo.",
           notas: "Entrada combinada con Foro y Palatino. Con arena ~24 €.",
