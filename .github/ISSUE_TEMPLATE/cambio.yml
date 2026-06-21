@@ -1,0 +1,18 @@
+name: ✏️ Cambio en el viaje
+description: Pide un cambio en la web del viaje y Claude lo aplicará automáticamente
+title: "[cambio] "
+labels: ["cambio"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Describe qué quieres cambiar en el itinerario. Cuanto más claro, mejor 🙂
+        Claude leerá esto, hará el cambio y la web se actualizará sola en ~1 minuto.
+  - type: textarea
+    id: peticion
+    attributes:
+      label: ¿Qué quieres cambiar?
+      description: "Ejemplos: cambiar una comida, mover una hora, añadir o quitar un sitio, cambiar el alojamiento base, ajustar un precio…"
+      placeholder: "Ej.: En el día 5 (Positano), cambia la cena por una pizzería con vistas y ponla a las 21:30."
+    validations:
+      required: true
