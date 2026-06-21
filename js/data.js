@@ -272,7 +272,7 @@ window.ITINERARIO = {
 
     {
       id: "d5", fecha: "2026-07-12", titulo: "Día 5 · Capri y traslado a Amalfi", zona: "amalfi",
-      alojamiento: "Noche en Amalfi (desde hoy)",
+      alojamiento: "Amalfi (noche de llegada)",
       paradas: [
         { nombre: "Devolver coche en Nápoles", tipo: "traslado", lat: 40.8400, lng: 14.2569, hora: "07:00",
           duracion: "—", precio: "", queVer: "Devolución del coche de alquiler.",
@@ -308,7 +308,7 @@ window.ITINERARIO = {
 
     {
       id: "d6", fecha: "2026-07-13", titulo: "Día 6 · Amalfi y Ravello", zona: "amalfi",
-      alojamiento: "Noche en Amalfi",
+      alojamiento: "Base en Amalfi (13–16)",
       paradas: [
         { nombre: "Amalfi (Duomo)", tipo: "iglesia", lat: 40.6342, lng: 14.6027, hora: "09:30",
           duracion: "1h30", precio: "3 € (Claustro)", queVer: "Catedral de Sant'Andrea y Claustro del Paraíso.",
@@ -333,7 +333,7 @@ window.ITINERARIO = {
 
     {
       id: "d7", fecha: "2026-07-14", titulo: "Día 7 · Positano", zona: "amalfi",
-      alojamiento: "Noche en Amalfi",
+      alojamiento: "Base en Amalfi (13–16)",
       paradas: [
         { nombre: "Ferry Amalfi → Positano", tipo: "traslado", lat: 40.6342, lng: 14.6027, hora: "09:30",
           duracion: "30min", precio: "~10 € (ida)", queVer: "La costa desde el mar; la mejor vista de Positano.",
@@ -359,7 +359,7 @@ window.ITINERARIO = {
 
     {
       id: "d8", fecha: "2026-07-15", titulo: "Día 8 · Sentiero degli Dei / relax", zona: "amalfi",
-      alojamiento: "Noche en Amalfi",
+      alojamiento: "Base en Amalfi (13–16)",
       paradas: [
         { nombre: "Bus a Bomerano (Agerola)", tipo: "traslado", lat: 40.6193, lng: 14.5443, hora: "08:30",
           duracion: "1h", precio: "~3 € (bus SITA)", queVer: "Inicio del Camino de los Dioses.",
