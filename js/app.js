@@ -123,6 +123,9 @@
     // Presupuesto
     panel.appendChild(renderResumen());
 
+    // Guardar puntos en Google Maps
+    panel.appendChild(renderGuardarMaps());
+
     // Itinerario
     const lblIt = document.createElement("div");
     lblIt.className = "section-label";
@@ -296,6 +299,18 @@
       '<div class="resumen__total">💶 Presupuesto estimado: ~' + Math.round(totalViaje()) + ' € / persona</div>' +
       '<div class="resumen__nota">Actividades, entradas, transportes y comidas (aprox., julio 2026). ' +
       'No incluye alojamiento (~100–150 €/noche por grupo) ni vuelos.</div>';
+    return card;
+  }
+
+  function renderGuardarMaps() {
+    const card = document.createElement("div");
+    card.className = "guardar";
+    card.innerHTML =
+      '<div class="guardar__tit">⭐ Guardar todos los puntos en Google Maps</div>' +
+      '<a class="guardar__btn" href="viaje.kml" download>⬇️ Descargar puntos (.kml)</a>' +
+      '<div class="guardar__nota">Impórtalo en <a href="https://www.google.com/maps/d/" target="_blank" rel="noopener">Google My Maps</a> ' +
+      "(Crear mapa nuevo → Importar → sube el archivo). Aparecerá en tu app de Google Maps en <b>Guardados › Mapas</b>. " +
+      "Se mantiene al día con el viaje: si un sitio sale del itinerario, deja de estar en el archivo.</div>";
     return card;
   }
 

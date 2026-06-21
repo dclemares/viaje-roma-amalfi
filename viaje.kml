@@ -1,0 +1,496 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <name>Roma + Costa Amalfitana (7 – 16 julio 2026)</name>
+    <description>Todos los puntos del viaje, generados desde el itinerario.</description>
+    <Folder>
+      <name>Día 0 · Llegada a Roma</name>
+      <Placemark>
+        <name>Fontana di Trevi</name>
+        <description>🕒 20:30  ⏱ 30min  💶 Gratis  
+La fuente barroca más famosa de Roma, espectacular de noche.  
+🚶 A pie.</description>
+        <Point><coordinates>12.483313,41.9009325,0</coordinates></Point>
+      </Placemark>
+      <Placemark>
+        <name>Panteón de Roma</name>
+        <description>🕒 21:15  ⏱ 30min  💶 Gratis (exterior de noche)  
+El Panteón iluminado y la Piazza della Rotonda.  
+🚶 A pie.</description>
+        <Point><coordinates>12.4768729,41.8986108,0</coordinates></Point>
+      </Placemark>
+      <Placemark>
+        <name>Cena por el centro</name>
+        <description>🕒 21:45  ⏱ 1h30  💶 ~30 €/pers.  
+Primera cena romana: cacio e pepe, carbonara, supplì.  
+🚶 A pie.</description>
+        <Point><coordinates>12.476,41.8986,0</coordinates></Point>
+      </Placemark>
+    </Folder>
+    <Folder>
+      <name>Día 1 · La Roma antigua</name>
+      <Placemark>
+        <name>Coliseo de Roma</name>
+        <description>🕒 09:00  ⏱ 1h30  💶 18 € (combinado)  
+Anfiteatro Flavio: gradas, arena y subterráneos.  
+🚶 Metro línea B, parada Colosseo.</description>
+        <Point><coordinates>12.4922309,41.8902102,0</coordinates></Point>
+      </Placemark>
+      <Placemark>
+        <name>Arco de Constantino</name>
+        <description>🕒 10:30  ⏱ 15min  💶 Gratis  
+Arco triunfal del s. IV junto al Coliseo.  
+🚶 A pie.</description>
+        <Point><coordinates>12.4906782,41.8898113,0</coordinates></Point>
+      </Placemark>
+      <Placemark>
+        <name>Foro Romano</name>
+        <description>🕒 10:50  ⏱ 1h15  💶 Incluido  
+Vía Sacra, templos, Curia, Arco de Tito.  
+🚶 A pie (misma entrada combinada).</description>
+        <Point><coordinates>12.4864378,41.8920906,0</coordinates></Point>
+      </Placemark>
+      <Placemark>
+        <name>Monte Palatino</name>
+        <description>🕒 12:10  ⏱ 50min  💶 Incluido  
+Palacios imperiales y vistas sobre el Circo Máximo.  
+🚶 A pie, conectado con el Foro.</description>
+        <Point><coordinates>12.4833333,41.8833333,0</coordinates></Point>
+      </Placemark>
+      <Placemark>
+        <name>Circo Máximo</name>
+        <description>🕒 13:05  ⏱ 20min  💶 Gratis  
+Antiguo circo de carreras de cuádrigas; gran explanada.  
+🚶 A pie bajando del Palatino.</description>
+        <Point><coordinates>12.4857578,41.8858762,0</coordinates></Point>
+      </Placemark>
+      <Placemark>
+        <name>Comida (zona Aventino/Circo)</name>
+        <description>🕒 13:30  ⏱ 1h  💶 ~18 €/pers.  
+Pausa para comer.  
+🚶 A pie.</description>
+        <Point><coordinates>12.483,41.8845,0</coordinates></Point>
+      </Placemark>
+      <Placemark>
+        <name>Termas de Caracalla</name>
+        <description>🕒 14:45  ⏱ 1h  💶 8 €  
+Enormes termas imperiales del s. III.  
+🚶 A pie / bus desde el Circo Máximo.</description>
+        <Point><coordinates>12.4924394,41.8790382,0</coordinates></Point>
+      </Placemark>
+      <Placemark>
+        <name>Monumento a Víctor Manuel II (Vittoriano)</name>
+        <description>🕒 16:15  ⏱ 40min  💶 Gratis  
+El &apos;Altar de la Patria&apos;; terraza panorámica.  
+🚶 Bus / a pie a Piazza Venezia.</description>
+        <Point><coordinates>12.4831269,41.8945976,0</coordinates></Point>
+      </Placemark>
+      <Placemark>
+        <name>Plaza Venezia</name>
+        <description>🕒 16:55  ⏱ 15min  💶 Gratis  
+Plaza neurálgica de Roma a los pies del Vittoriano.  
+🚶 A pie.</description>
+        <Point><coordinates>12.4825739,41.8957663,0</coordinates></Point>
+      </Placemark>
+      <Placemark>
+        <name>Estatua de Rómulo y Remo (Loba Capitolina)</name>
+        <description>🕒 17:15  ⏱ 10min  💶 Gratis  
+La loba amamantando a Rómulo y Remo, en el Campidoglio.  
+🚶 A pie subiendo al Campidoglio.</description>
+        <Point><coordinates>12.4836287,41.8933676,0</coordinates></Point>
+      </Placemark>
+      <Placemark>
+        <name>Estatua ecuestre de Marco Aurelio</name>
+        <description>🕒 17:25  ⏱ 10min  💶 Gratis  
+Réplica en la Plaza del Campidoglio (diseño de Miguel Ángel).  
+🚶 A pie.</description>
+        <Point><coordinates>12.4829349,41.8933247,0</coordinates></Point>
+      </Placemark>
+      <Placemark>
+        <name>Museos Capitolinos</name>
+        <description>🕒 17:40  ⏱ 1h15  💶 16 €  
+Loba Capitolina original, escultura clásica y vistas del Foro.  
+🚶 En la Plaza del Campidoglio.</description>
+        <Point><coordinates>12.4825577,41.8929428,0</coordinates></Point>
+      </Placemark>
+      <Placemark>
+        <name>San Pietro in Vincoli</name>
+        <description>🕒 19:05  ⏱ 25min  💶 Gratis  
+El Moisés de Miguel Ángel.  
+🚶 A pie.</description>
+        <Point><coordinates>12.4931498,41.8937984,0</coordinates></Point>
+      </Placemark>
+      <Placemark>
+        <name>Santa Maria della Neve (Santa Maria Maggiore)</name>
+        <description>🕒 19:40  ⏱ 25min  💶 Gratis  
+Basílica papal con mosaicos paleocristianos.  
+🚶 A pie.</description>
+        <Point><coordinates>12.4984084,41.8975986,0</coordinates></Point>
+      </Placemark>
+      <Placemark>
+        <name>Cena por Monti</name>
+        <description>🕒 21:00  ⏱ 1h30  💶 ~30 €/pers.  
+Cena en el barrio de Monti.  
+🚶 A pie.</description>
+        <Point><coordinates>12.493,41.8946,0</coordinates></Point>
+      </Placemark>
+    </Folder>
+    <Folder>
+      <name>Día 2 · El Vaticano</name>
+      <Placemark>
+        <name>Museo Vaticano</name>
+        <description>🕒 08:30  ⏱ 2h30  💶 ~27 € (con reserva)  
+Galerías, Estancias de Rafael, Galería de los Mapas.  
+🚶 Metro línea A, parada Ottaviano.</description>
+        <Point><coordinates>12.4536413,41.9064878,0</coordinates></Point>
+      </Placemark>
+      <Placemark>
+        <name>Capilla Sixtina</name>
+        <description>🕒 11:00  ⏱ 30min  💶 Incluido  
+El Juicio Final y la bóveda de Miguel Ángel.  
+🚶 Al final del recorrido de los Museos Vaticanos.</description>
+        <Point><coordinates>12.4544835,41.9029468,0</coordinates></Point>
+      </Placemark>
+      <Placemark>
+        <name>Basílica de San Pedro</name>
+        <description>🕒 11:45  ⏱ 1h15  💶 10 € (cúpula)  
+La Piedad de Miguel Ángel y subida a la cúpula.  
+🚶 A pie desde la Sixtina.</description>
+        <Point><coordinates>12.4539367,41.9021667,0</coordinates></Point>
+      </Placemark>
+      <Placemark>
+        <name>Plaza de San Pedro</name>
+        <description>🕒 13:00  ⏱ 20min  💶 Gratis  
+La columnata abrazadora de Bernini.  
+🚶 A pie.</description>
+        <Point><coordinates>12.4568158,41.9022359,0</coordinates></Point>
+      </Placemark>
+      <Placemark>
+        <name>Obelisco de la Plaza de San Pedro</name>
+        <description>🕒 13:20  ⏱ 10min  💶 Gratis  
+Obelisco egipcio del s. I en el centro de la plaza.  
+🚶 En la propia plaza.</description>
+        <Point><coordinates>12.4572593,41.9022331,0</coordinates></Point>
+      </Placemark>
+      <Placemark>
+        <name>Comida en Prati</name>
+        <description>🕒 13:45  ⏱ 1h  💶 ~20 €/pers.  
+Pausa para comer en el barrio de Prati.  
+🚶 A pie.</description>
+        <Point><coordinates>12.462,41.906,0</coordinates></Point>
+      </Placemark>
+      <Placemark>
+        <name>Castillo de Sant&apos;Angelo</name>
+        <description>🕒 16:00  ⏱ 1h30  💶 16 €  
+Mausoleo de Adriano y terraza panorámica.  
+🚶 A pie por la Via della Conciliazione.</description>
+        <Point><coordinates>12.466276,41.9030632,0</coordinates></Point>
+      </Placemark>
+      <Placemark>
+        <name>Puente Sant&apos;Angelo</name>
+        <description>🕒 17:30  ⏱ 15min  💶 Gratis  
+Puente con los ángeles de Bernini sobre el Tíber.  
+🚶 A pie.</description>
+        <Point><coordinates>12.4664498,41.901901,0</coordinates></Point>
+      </Placemark>
+      <Placemark>
+        <name>Puente Umberto</name>
+        <description>🕒 17:50  ⏱ 15min  💶 Gratis  
+Bonitas vistas del Tíber y del Castillo.  
+🚶 A pie por la orilla.</description>
+        <Point><coordinates>12.4714223,41.9023147,0</coordinates></Point>
+      </Placemark>
+      <Placemark>
+        <name>Passeggiata del Gianicolo</name>
+        <description>🕒 19:00  ⏱ 1h  💶 Gratis  
+La mejor panorámica de Roma al atardecer.  
+🚶 Subida a pie / bus.</description>
+        <Point><coordinates>12.4613942,41.8914697,0</coordinates></Point>
+      </Placemark>
+      <Placemark>
+        <name>Trastévere (cena)</name>
+        <description>🕒 20:30  ⏱ 1h30  💶 ~30 €/pers.  
+Cena y ambiente en las callejuelas de Trastévere.  
+🚶 Bajando del Gianicolo.</description>
+        <Point><coordinates>12.4704017,41.8848294,0</coordinates></Point>
+      </Placemark>
+    </Folder>
+    <Folder>
+      <name>Día 3 · Centro de Roma</name>
+      <Placemark>
+        <name>Monte Aventino</name>
+        <description>🕒 09:00  ⏱ 45min  💶 Gratis  
+Jardín de los Naranjos y el ojo de la cerradura de la Orden de Malta.  
+🚶 A pie / metro B Circo Massimo.</description>
+        <Point><coordinates>12.4776405,41.8824826,0</coordinates></Point>
+      </Placemark>
+      <Placemark>
+        <name>Boca de la Verdad</name>
+        <description>🕒 10:00  ⏱ 20min  💶 Gratis  
+La &apos;boca de la verdad&apos; en Santa Maria in Cosmedin.  
+🚶 A pie bajando del Aventino.</description>
+        <Point><coordinates>12.4814441,41.8882378,0</coordinates></Point>
+      </Placemark>
+      <Placemark>
+        <name>Foro Boario</name>
+        <description>🕒 10:25  ⏱ 20min  💶 Gratis  
+Templos de Hércules y de Portuno, muy bien conservados.  
+🚶 A pie, al lado.</description>
+        <Point><coordinates>12.4811604,41.8887792,0</coordinates></Point>
+      </Placemark>
+      <Placemark>
+        <name>Campo de&apos; Fiori</name>
+        <description>🕒 11:15  ⏱ 30min  💶 Gratis  
+Mercado de día y plaza animada.  
+🚶 A pie cruzando hacia el centro.</description>
+        <Point><coordinates>12.4721757,41.8956045,0</coordinates></Point>
+      </Placemark>
+      <Placemark>
+        <name>Piazza Navona</name>
+        <description>🕒 12:00  ⏱ 30min  💶 Gratis  
+Fuente de los Cuatro Ríos de Bernini.  
+🚶 A pie.</description>
+        <Point><coordinates>12.4730719,41.8991622,0</coordinates></Point>
+      </Placemark>
+      <Placemark>
+        <name>Comida por el centro</name>
+        <description>🕒 12:45  ⏱ 1h  💶 ~20 €/pers.  
+Pausa para comer.  
+🚶 A pie.</description>
+        <Point><coordinates>12.4745,41.8985,0</coordinates></Point>
+      </Placemark>
+      <Placemark>
+        <name>Panteón de Roma</name>
+        <description>🕒 14:00  ⏱ 40min  💶 5 €  
+El interior de día: cúpula, óculo y tumba de Rafael.  
+🚶 A pie.</description>
+        <Point><coordinates>12.4768729,41.8986108,0</coordinates></Point>
+      </Placemark>
+      <Placemark>
+        <name>Iglesia de San Ignacio de Loyola</name>
+        <description>🕒 14:50  ⏱ 20min  💶 Gratis  
+Espectacular techo ilusionista (cúpula falsa pintada).  
+🚶 A pie.</description>
+        <Point><coordinates>12.479708,41.8991634,0</coordinates></Point>
+      </Placemark>
+      <Placemark>
+        <name>Biblioteca Casanatense</name>
+        <description>🕒 15:15  ⏱ 30min  💶 Gratis  
+Biblioteca histórica con salón monumental.  
+🚶 A pie.</description>
+        <Point><coordinates>12.4794511,41.8986879,0</coordinates></Point>
+      </Placemark>
+      <Placemark>
+        <name>Fontana di Trevi</name>
+        <description>🕒 16:00  ⏱ 20min  💶 Gratis  
+La fuente de día (Samanta quería verla de día y de noche).  
+🚶 A pie.</description>
+        <Point><coordinates>12.483313,41.9009325,0</coordinates></Point>
+      </Placemark>
+      <Placemark>
+        <name>La Città dell&apos;Acqua</name>
+        <description>🕒 16:25  ⏱ 30min  💶 4 €  
+Restos arqueológicos romanos (Vicus Caprarius) bajo tierra.  
+🚶 A pie, junto a Trevi.</description>
+        <Point><coordinates>12.4842002,41.9004114,0</coordinates></Point>
+      </Placemark>
+      <Placemark>
+        <name>Cripta de los Capuchinos</name>
+        <description>🕒 17:15  ⏱ 45min  💶 10 €  
+Iglesia de Santa Maria della Concezione y la cripta decorada con huesos.  
+🚶 A pie.</description>
+        <Point><coordinates>12.4885678,41.905024,0</coordinates></Point>
+      </Placemark>
+      <Placemark>
+        <name>Plaza de España</name>
+        <description>🕒 18:15  ⏱ 30min  💶 Gratis  
+Escalinata de la Trinità dei Monti y la Barcaccia.  
+🚶 A pie.</description>
+        <Point><coordinates>12.482088,41.9057881,0</coordinates></Point>
+      </Placemark>
+      <Placemark>
+        <name>Via Margutta</name>
+        <description>🕒 18:50  ⏱ 20min  💶 Gratis  
+Preciosa calle de artistas y galerías.  
+🚶 A pie.</description>
+        <Point><coordinates>12.4798199,41.9083662,0</coordinates></Point>
+      </Placemark>
+      <Placemark>
+        <name>Plaza del Popolo</name>
+        <description>🕒 19:20  ⏱ 20min  💶 Gratis  
+Gran plaza con obelisco e iglesias gemelas.  
+🚶 A pie.</description>
+        <Point><coordinates>12.4763579,41.9107038,0</coordinates></Point>
+      </Placemark>
+      <Placemark>
+        <name>Basílica de Santa María del Popolo</name>
+        <description>🕒 19:45  ⏱ 30min  💶 Gratis  
+Dos Caravaggios y la capilla Chigi de Rafael.  
+🚶 En la propia plaza.</description>
+        <Point><coordinates>12.4762433,41.9114632,0</coordinates></Point>
+      </Placemark>
+      <Placemark>
+        <name>Cena de despedida de Roma</name>
+        <description>🕒 21:00  ⏱ 1h30  💶 ~35 €/pers.  
+Última cena romana antes de la Costa.  
+🚶 A pie.</description>
+        <Point><coordinates>12.479,41.9078,0</coordinates></Point>
+      </Placemark>
+    </Folder>
+    <Folder>
+      <name>Día 4 · Roma → Pompeya → Costa Amalfitana</name>
+      <Placemark>
+        <name>Pompeya (yacimiento)</name>
+        <description>🕒 09:30  ⏱ 3h30  💶 18 €  
+Ciudad romana sepultada por el Vesubio: el Foro, el Anfiteatro, la Casa del Fauno, la Villa dei Misteri, el Lupanar, las termas y los moldes de las víctimas.  
+🚶 Junto a la estación (Pompei Scavi / Pompei). Deja las maletas en la consigna gratuita.</description>
+        <Point><coordinates>14.4847,40.7491,0</coordinates></Point>
+      </Placemark>
+      <Placemark>
+        <name>Comida en Pompei</name>
+        <description>🕒 13:15  ⏱ 1h  💶 ~20 €/pers.  
+Pausa para comer cerca del yacimiento.  
+🚶 A pie en el pueblo de Pompei.</description>
+        <Point><coordinates>14.499,40.748,0</coordinates></Point>
+      </Placemark>
+      <Placemark>
+        <name>Atardecer en Villa Comunale</name>
+        <description>🕒 19:30  ⏱ 1h  💶 Gratis  
+Vistas al golfo de Nápoles y el Vesubio.  
+🚶 A pie.</description>
+        <Point><coordinates>14.37,40.6258,0</coordinates></Point>
+      </Placemark>
+      <Placemark>
+        <name>Cena en Sorrento</name>
+        <description>🕒 21:00  ⏱ 1h30  💶 ~35 €/pers.  
+Gnocchi alla sorrentina, limoncello.  
+🚶 A pie por Piazza Tasso.</description>
+        <Point><coordinates>14.375,40.6263,0</coordinates></Point>
+      </Placemark>
+    </Folder>
+    <Folder>
+      <name>Día 5 · Positano</name>
+      <Placemark>
+        <name>Positano (pueblo)</name>
+        <description>🕒 10:30  ⏱ 1h30  💶 Gratis  
+Casas en cascada, Iglesia de Santa Maria Assunta (cúpula de mayólica).  
+🚶 A pie desde Spiaggia Grande.</description>
+        <Point><coordinates>14.4844,40.6281,0</coordinates></Point>
+      </Placemark>
+      <Placemark>
+        <name>Playa Spiaggia Grande</name>
+        <description>🕒 12:00  ⏱ 2h  💶 Gratis  
+Baño y aperitivo frente al mar.  
+🚶 En el centro de Positano.</description>
+        <Point><coordinates>14.485,40.6275,0</coordinates></Point>
+      </Placemark>
+      <Placemark>
+        <name>Comida frente al mar</name>
+        <description>🕒 14:00  ⏱ 1h30  💶 ~30 €/pers.  
+Pasta con frutos del mar.  
+🚶 A pie.</description>
+        <Point><coordinates>14.4848,40.6278,0</coordinates></Point>
+      </Placemark>
+      <Placemark>
+        <name>Paseo a Fornillo</name>
+        <description>🕒 16:30  ⏱ 1h  💶 Gratis  
+Sendero Via Positanesi d&apos;America hasta la playa de Fornillo.  
+🚶 A pie desde Spiaggia Grande.</description>
+        <Point><coordinates>14.481,40.6268,0</coordinates></Point>
+      </Placemark>
+    </Folder>
+    <Folder>
+      <name>Día 6 · Capri</name>
+      <Placemark>
+        <name>Grotta Azzurra</name>
+        <description>🕒 10:00  ⏱ 1h  💶 ~18 € (entrada + barca)  
+La Gruta Azul (si el mar lo permite).  
+🚶 Barca desde Marina Grande o bus a Anacapri.</description>
+        <Point><coordinates>14.2052,40.5607,0</coordinates></Point>
+      </Placemark>
+      <Placemark>
+        <name>Anacapri y Monte Solaro</name>
+        <description>🕒 12:00  ⏱ 2h  💶 14 € (telesilla)  
+Telesilla al Monte Solaro, la mejor vista de la isla.  
+🚶 Bus desde Marina Grande / Capri (~2 €).</description>
+        <Point><coordinates>14.2161,40.5547,0</coordinates></Point>
+      </Placemark>
+      <Placemark>
+        <name>Comida en Capri</name>
+        <description>🕒 14:30  ⏱ 1h30  💶 ~30 €/pers.  
+Ravioli capresi, ensalada caprese.  
+🚶 A pie.</description>
+        <Point><coordinates>14.243,40.5505,0</coordinates></Point>
+      </Placemark>
+      <Placemark>
+        <name>Jardines de Augusto y Faraglioni</name>
+        <description>🕒 16:30  ⏱ 1h  💶 3 €  
+Vistas a los Faraglioni y a Via Krupp.  
+🚶 A pie desde Capri pueblo.</description>
+        <Point><coordinates>14.24,40.5485,0</coordinates></Point>
+      </Placemark>
+    </Folder>
+    <Folder>
+      <name>Día 7 · Amalfi y Ravello</name>
+      <Placemark>
+        <name>Amalfi (Duomo)</name>
+        <description>🕒 11:00  ⏱ 1h30  💶 3 € (Claustro)  
+Catedral de Sant&apos;Andrea y Claustro del Paraíso.  
+🚶 A pie desde el puerto.</description>
+        <Point><coordinates>14.6027,40.6342,0</coordinates></Point>
+      </Placemark>
+      <Placemark>
+        <name>Comida en Amalfi</name>
+        <description>🕒 13:00  ⏱ 1h  💶 ~30 €/pers.  
+Pescado fresco y delizia al limone.  
+🚶 A pie.</description>
+        <Point><coordinates>14.603,40.634,0</coordinates></Point>
+      </Placemark>
+      <Placemark>
+        <name>Villa Rufolo (Ravello)</name>
+        <description>🕒 14:30  ⏱ 1h  💶 7 €  
+Jardines con vistas y escenario de conciertos.  
+🚶 Bus Amalfi → Ravello (~1,30 €, 25 min de curvas).</description>
+        <Point><coordinates>14.6118,40.6486,0</coordinates></Point>
+      </Placemark>
+      <Placemark>
+        <name>Villa Cimbrone</name>
+        <description>🕒 16:00  ⏱ 1h  💶 10 €  
+La Terraza del Infinito, vistas espectaculares.  
+🚶 A pie por Ravello.</description>
+        <Point><coordinates>14.6133,40.6456,0</coordinates></Point>
+      </Placemark>
+    </Folder>
+    <Folder>
+      <name>Día 8 · Sentiero degli Dei / relax</name>
+      <Placemark>
+        <name>Sentiero degli Dei</name>
+        <description>🕒 09:30  ⏱ 3h  💶 Gratis  
+El &apos;Camino de los Dioses&apos;: ~7 km con vistas brutales a la costa.  
+🚶 Sendero Bomerano → Nocelle.</description>
+        <Point><coordinates>14.51,40.628,0</coordinates></Point>
+      </Placemark>
+      <Placemark>
+        <name>Bajada a Positano (Nocelle)</name>
+        <description>🕒 13:00  ⏱ 1h  💶 Gratis  
+~1.700 escalones bajando a Positano (o bus desde Nocelle ~2 €).  
+🚶 A pie / bus local.</description>
+        <Point><coordinates>14.497,40.6336,0</coordinates></Point>
+      </Placemark>
+      <Placemark>
+        <name>Comida y baño en Positano</name>
+        <description>🕒 14:30  ⏱ 2h30  💶 ~30 €/pers.  
+Premio final: chapuzón y comida.  
+🚶 A pie.</description>
+        <Point><coordinates>14.485,40.6275,0</coordinates></Point>
+      </Placemark>
+      <Placemark>
+        <name>Cena de despedida</name>
+        <description>🕒 21:00  ⏱ 1h30  💶 ~35 €/pers.  
+Última cena del viaje.  
+🚶 A pie en Sorrento.</description>
+        <Point><coordinates>14.375,40.6263,0</coordinates></Point>
+      </Placemark>
+    </Folder>
+  </Document>
+</kml>
