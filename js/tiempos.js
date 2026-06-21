@@ -248,6 +248,11 @@ window.TIEMPOS = {
   ],
   "d5": [
     {
+      "modo": "walk",
+      "min": 0,
+      "m": 0
+    },
+    {
       "modo": "transporte",
       "m": 39017
     },
