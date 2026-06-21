@@ -489,6 +489,34 @@
     render(true);
   };
 
+  // ---------- Mapa externo de Google My Maps (alternar) ----------
+  (function () {
+    const cfg = window.ITINERARIO && window.ITINERARIO.mapaExterno;
+    const btn = document.getElementById("btnMapaExterno");
+    const lnk = document.getElementById("lnkMapaExterno");
+    const iframe = document.getElementById("mapaExterno");
+    if (!btn) return;
+    if (!cfg || !cfg.mid) { btn.style.display = "none"; if (lnk) lnk.style.display = "none"; return; }
+
+    const nombre = cfg.nombre || "Mapa externo";
+    lnk.href = "https://www.google.com/maps/d/viewer?mid=" + encodeURIComponent(cfg.mid);
+    let externo = false;
+
+    function pintar() {
+      btn.textContent = externo ? "🧭 Mapa con rutas" : "🗺️ " + nombre;
+      iframe.hidden = !externo;
+      lnk.hidden = !externo;
+    }
+    btn.onclick = function () {
+      externo = !externo;
+      if (externo && !iframe.src) {
+        iframe.src = "https://www.google.com/maps/d/embed?mid=" + encodeURIComponent(cfg.mid);
+      }
+      pintar();
+    };
+    pintar();
+  })();
+
   // ---------- Pedir un cambio (lo recibe Claude vía GitHub Issues) ----------
   (function () {
     const fab = document.getElementById("fabPedir");

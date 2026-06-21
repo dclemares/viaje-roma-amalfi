@@ -19,6 +19,8 @@ window.ITINERARIO = {
   subtitulo: "Roma + Costa Amalfitana · julio 2026",
   fechas: "7 – 16 julio 2026",
   repo: "dclemares/viaje-roma-amalfi", // para el botón "Pedir un cambio"
+  // Mapa externo de Google My Maps (creado por Samanta). mid = id del mapa.
+  mapaExterno: { nombre: "Mapa de Samanta", mid: "1WVWxjF6RqbQpW9FAvvUPdNjWN0ErPWk" },
 
   zonas: {
     roma:     { nombre: "Roma",             color: "#c0392b" },
