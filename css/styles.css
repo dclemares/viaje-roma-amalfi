@@ -212,6 +212,27 @@ body { display: flex; flex-direction: column; }
   background: transparent;
 }
 
+/* Tiempos por día y conectores de tramo */
+.dia__tiempos { font-size: 0.74rem; color: var(--muted); margin-top: 3px; }
+.dia__maps {
+  display: inline-block;
+  margin: 4px 0 6px;
+  font-size: 0.82rem;
+  color: var(--amalfi);
+  text-decoration: none;
+  font-weight: 600;
+}
+.dia__maps:hover { text-decoration: underline; }
+.conector { padding: 2px 0 2px 44px; }
+.conector__txt {
+  font-size: 0.76rem;
+  color: var(--muted);
+  text-decoration: none;
+  border-left: 2px dotted var(--line);
+  padding-left: 8px;
+}
+.conector__txt:hover { color: var(--accent); }
+
 /* ---------- Transporte ---------- */
 .transportes { margin-bottom: 14px; }
 .transportes h3 { font-size: 0.9rem; margin: 0 0 8px; }

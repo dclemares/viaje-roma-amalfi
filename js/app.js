@@ -146,11 +146,19 @@
 
     const head = document.createElement("div");
     head.className = "dia__head";
+    const segs = (window.TIEMPOS && window.TIEMPOS[dia.id]) || [];
+    let walkMin = 0;
+    segs.forEach(function (s) { if (s && s.modo === "walk" && s.m <= 2000) walkMin += s.min; });
+    let visitMin = 0;
+    (dia.paradas || []).forEach(function (p) { visitMin += durMin(p.duracion); });
+
     const izq = document.createElement("div");
     izq.innerHTML =
       '<div class="dia__titulo">' + esc(dia.titulo) + "</div>" +
       '<div class="dia__fecha">' + formatoFecha(dia.fecha) + "</div>" +
-      (dia.alojamiento ? '<div class="dia__aloj">🏨 ' + esc(dia.alojamiento) + "</div>" : "");
+      (dia.alojamiento ? '<div class="dia__aloj">🏨 ' + esc(dia.alojamiento) + "</div>" : "") +
+      '<div class="dia__tiempos">🕒 ~' + fmtMin(visitMin) + " visitas" +
+        (walkMin ? "  ·  🚶 ~" + fmtMin(walkMin) + " andando" : "") + "</div>";
     const der = document.createElement("div");
     der.className = "dia__head-right";
     der.innerHTML =
@@ -168,8 +176,23 @@
     const body = document.createElement("div");
     body.className = "dia__body";
 
+    const geoPs = (dia.paradas || []).filter(function (p) { return typeof p.lat === "number" && typeof p.lng === "number"; });
+    if (geoPs.length >= 2) {
+      const pts = geoPs.slice(0, 10).map(function (p) { return p.lat + "," + p.lng; }).join("/");
+      const dayLink = document.createElement("a");
+      dayLink.className = "dia__maps";
+      dayLink.href = "https://www.google.com/maps/dir/" + pts;
+      dayLink.target = "_blank"; dayLink.rel = "noopener";
+      dayLink.textContent = "🗺️ Abrir ruta del día en Google Maps" + (geoPs.length > 10 ? " (primeras 10)" : "");
+      body.appendChild(dayLink);
+    }
+
     (dia.paradas || []).forEach(function (parada, idx) {
       body.appendChild(renderParada(dia, parada, idx));
+      if (idx < dia.paradas.length - 1) {
+        const conn = renderConector(dia.paradas[idx], dia.paradas[idx + 1], segs[idx]);
+        if (conn) body.appendChild(conn);
+      }
     });
 
     if (editMode) {
@@ -552,6 +575,34 @@
   function esc(s) {
     return String(s == null ? "" : s)
       .replace(/&/g, "&amp;").replace(/</g, "&lt;").replace(/>/g, "&gt;").replace(/"/g, "&quot;");
+  }
+
+  function durMin(s) {
+    if (!s || s === "—") return 0;
+    s = String(s).toLowerCase();
+    const h = s.match(/(\d+)\s*h\s*(\d{1,2})?/);
+    if (h) return (+h[1]) * 60 + (h[2] ? +h[2] : 0);
+    const m = s.match(/(\d+)\s*min/);
+    if (m) return +m[1];
+    return 0;
+  }
+  function fmtMin(min) {
+    min = Math.round(min);
+    if (min < 60) return min + " min";
+    const h = Math.floor(min / 60), m = min % 60;
+    return m ? h + "h " + m + "min" : h + "h";
+  }
+  function renderConector(a, b, seg) {
+    if (typeof a.lat !== "number" || typeof b.lat !== "number") return null;
+    let txt, mode;
+    if (seg && seg.modo === "walk" && seg.m <= 2000) { txt = "🚶 " + seg.min + " min · " + seg.m + " m"; mode = "walking"; }
+    else { txt = "🧭 Cómo llegar"; mode = "transit"; }
+    const link = "https://www.google.com/maps/dir/?api=1&origin=" + a.lat + "," + a.lng +
+      "&destination=" + b.lat + "," + b.lng + "&travelmode=" + mode;
+    const el = document.createElement("div");
+    el.className = "conector";
+    el.innerHTML = '<a class="conector__txt" href="' + link + '" target="_blank" rel="noopener">' + txt + " ↗</a>";
+    return el;
   }
 
   const MESES = ["enero","febrero","marzo","abril","mayo","junio","julio","agosto","septiembre","octubre","noviembre","diciembre"];
